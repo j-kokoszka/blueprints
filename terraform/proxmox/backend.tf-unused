@@ -1,0 +1,5 @@
+# If some external tfstate sorage is used
+terraform {
+  backend "http" {
+  }
+}
